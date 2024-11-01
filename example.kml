@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>thydzik Google Map KML example</name>
+	<Placemark>
+		<name>Z</name>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://chart.googleapis.com/chart?chst=d_map_pin_letter&amp;chld=Z|c89bff|000000&amp;.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>115.85859,-31.9554,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>1</name>
+		<description>Fremantle</description>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://chart.googleapis.com/chart?chst=d_map_pin_letter&amp;chld=1|6b98ff|000000&amp;.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>115.745869,-32.053128,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>default</name>
+		<Style>
+			<IconStyle>
+				<scale>1</scale>
+				<Icon>
+					<href>http://chart.googleapis.com/chart?chst=d_map_pin_letter&amp;chld=%e2%bc%80|ffed5c|000000&amp;.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>115.92724,-32.036036,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>KP</name>
+		<description>Kings Park</description>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://chart.googleapis.com/chart?chst=d_map_pin_letter&amp;chld=KP|97ec7d|000000&amp;.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>115.836239,-31.963013,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>$</name>
+		<description><![CDATA[<a href="http://perthmint.com.au" rel="nofollow">Perth Mint</a>]]></description>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://chart.googleapis.com/chart?chst=d_map_pin_letter&amp;chld=$|ffffff|000000&amp;.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>115.869906,-31.956659,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Blue Line</name>
+		<Style>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>2</width>
+			</LineStyle>
+		</Style>
+		<LineString>
+			<coordinates>
+				115.751266,-32.027579,0 115.769463,-31.987404,0 115.852203,-31.957697,0 115.879326,-31.963814,0 115.942154,-32.026415,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Red Line</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<LineString>
+			<coordinates>
+				115.745869,-32.053128,0 115.836239,-31.963013,0 115.85859,-31.9554,0 115.869906,-31.956659,0 115.92724,-32.036036,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

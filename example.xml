@@ -1,0 +1,26 @@
+<markers>
+<!-- Marker Z has no html to show nonclickability-->
+<marker lat="-31.9554" lng="115.85859"  icon="Z" color="c89bff"/>
+<marker lat="-32.053128" lng="115.745869" html="Fremantle"  icon="1" color="6b98ff"/>
+<!-- Standard marker with html-->
+<marker lat="-32.036036" lng="115.92724" html="&lt;b&gt;Lynwood&lt;/b&gt;&lt;br&gt;Residence of the author" color="ffed5c"/>
+<marker lat="-31.963013" lng="115.836239" html="Kings Park" icon="KP" color="97ec7d"/>
+<!-- Character marker with html that includes link-->
+<marker lat="-31.956659" lng="115.869906" html="&lt;a href=&quot;http://perthmint.com.au&quot; rel=&quot;nofollow&quot;&gt;Perth Mint&lt;/a&gt;" icon="$" color="ffffff"/>
+<!-- Example of two lines-->
+<line colour="#0000FF" width="2" opacity="0.75">
+	<point lat="-32.027579" lng="115.751266" />
+	<point lat="-31.987404" lng="115.769463" />
+	<point lat="-31.957697" lng="115.852203" />
+	<point lat="-31.963814" lng="115.879326" />
+	<point lat="-32.026415" lng="115.942154" />
+</line>
+<points colour="#FF0000" width="4" opacity="0.75">
+	<point lat="-32.053128" lng="115.745869" />
+	<point lat="-31.963013" lng="115.836239" />
+	<point lat="-31.9554" lng="115.85859" />
+	<point lat="-31.956659" lng="115.869906" />
+	<point lat="-32.036036" lng="115.92724" />
+</points> 
+</markers>
+
